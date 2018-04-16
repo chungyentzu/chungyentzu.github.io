@@ -16,10 +16,26 @@ h1 {
 	margin-top: 1rem;
 }
 
-h2{
-    font-family:inherit;
+h2 {
+     font-family:inherit;
 }
 
-h3{
-	font-family:inherit;
+h3 {
+	  font-family:inherit;
+}
+
+.timeline {
+	position:relative;
+	margin:0 auto;
+}
+
+.timeline::after {
+	content: '';
+	position:absolute;
+	width: 6px;
+	background-color:#bd5d38;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
 }
