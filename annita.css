@@ -39,3 +39,10 @@ h3 {
 	left: 50%;
 	margin-left: -3px;
 }
+
+.timeline-block {
+	padding: 10px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+}
